@@ -1,0 +1,24 @@
+# Core dependencies for all scrapers
+beautifulsoup4==4.12.3
+requests==2.31.0
+tqdm==4.66.2
+
+# PDF processing for Security Bank, Metrobank, PNB
+pdfplumber==0.11.7
+PyPDF2==3.0.1
+
+# Web scraping and automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Advanced web scraping (Crawl4AI)
+crawl4ai>=0.6.0
+aiohttp>=3.8.0
+nest-asyncio>=1.5.8
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Optional: AI-powered extraction (if using OpenAI features)
+# openai>=1.0.0
+# tavily-python>=0.2.3 
