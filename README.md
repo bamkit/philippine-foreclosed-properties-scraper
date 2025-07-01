@@ -139,10 +139,18 @@ Each property is saved as a JSON object with fields like:
 
 ## 📈 Recent Results
 
-- **BPI**: 10 properties extracted from manual HTML
+- **BPI**: 30 properties extracted from manual HTML (3 pages)
+- **EastWest Bank**: 229 unique properties with complete addresses
 - **Security Bank**: 243 properties extracted from PDF
 - **All banks**: Successfully tested and working
 
+## 🔄 Recent Updates
+
+- **Fixed EastWest Bank pagination**: Corrected URL structure to extract all 200+ properties
+- **Restored BPI manual HTML parser**: Working solution for Cloudflare-protected BPI website
+- **Improved data extraction**: Enhanced property details and address extraction
+- **Duplicate removal**: Added deduplication logic for cleaner data
+
 ---
 
-**Last updated**: December 2024 
+**Last updated**: January 2025 
