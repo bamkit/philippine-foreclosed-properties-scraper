@@ -1,0 +1,370 @@
+@media (min-width:1100px){
+  a.mobilemenu-trigger{display:none}
+  #primarymenu-collapse{display:block;height:auto!important}
+}
+@media (max-width:1100px){
+  *{}
+  body{}
+  .container{width:980px}
+  .btn{}
+  select.form-control{}
+  select.form-control.inline-block{}
+  input.form-control{}
+  textarea.form-control{}
+  #header{}
+  .mobilemenu-trigger{display:block;width:54px;float:left;background:url(../images/menu-close.png) no-repeat 50% 50%;height:32px}
+  .mobilemenu-trigger.collapsed{background-image:url(../images/menu-open.png)}
+  #primarymenu-collapse{clear:both}
+  #primarymenu-collapse.in{clear:both}
+  #header .container{}
+  #header #logo{}
+  #header .car-show{}
+  #header .tagline{}
+  #primary{}
+  #primary .navmenu{float:none;padding-top:10px}
+  #primary .navmenu ul{}
+  #primary .navmenu ul li{display:block}
+  #primary .navmenu ul li:after{display:none}
+  #primary .navmenu ul li:last-child:after{}
+  #primary .navmenu ul li a{display:block;border-top:1px solid #eee;font-size:14px;font-weight:normal;padding:10px 0 10px 58px}
+  #primary .searchwrap{float:none;width:auto;margin-left:60px;overflow:hidden}
+  #primary .searchwrap input.input{}
+  #primary .searchwrap button.searchbtn{}
+  #secondary{}
+  #secondary .navmenu{}
+  #secondary .navmenu ul{}
+  #secondary .navmenu ul li{}
+  #secondary .navmenu ul li a{}
+  #secondary .navmenu ul li.active a{}
+  #home-banner{}
+  #home-banner img.bannerimg{}
+  #home-filtering{}
+  #home-filtering #homefitering-fields{}
+  #home-filtering #homefitering-fields h3{}
+  #home-filtering #homefitering-fields form{}
+  #home-filtering #homefitering-fields form .form-group{}
+  #home-filtering #homefitering-fields form .control-label{}
+  #home-filtering #homefitering-fields form .btn-block{}
+  #home-filtering #homefitering-fields form .btn-block .col-sm-6{}
+  #home-filtering #homefitering-fields form .btn-block .btn{}
+  #home-filtering .cta-home{}
+  #home-filtering .cta-home a{}
+  #home-filtering .cta-home a:after{}
+  #home-filtering .cta-home a img{}
+  #home-filtering .cta-home a span{}
+  #highlights-link{}
+  #highlights-link ul{}
+  #highlights-link ul li{}
+  #highlights-link ul li a{}
+  #highlights-link ul li.dark-orange a{}
+  #highlights-link ul li.lite-orange a{}
+  #highlights-link ul li.yellow a{}
+  #highlights-link ul li.red a{}
+  #footer{}
+  #search-results{}
+	#search-results .results-list{}
+	#search-results h3,.search-again h3{}
+	#search-results .result-each{}
+	#search-results .result-each .thumb{}
+	#search-results .result-each .thumb img{}
+	#search-results .result-each h4{}
+	#search-results .result-each p{}
+	.search-again .control-label{}
+	.search-again .btnblock{}
+	#search-footer{}
+	#search-footer .show-limit{}
+	#search-footer .show-limit select{}
+	#search-footer .search-pageination{}
+	#search-footer .search-pageination ul.pagin{}
+	#search-footer .search-pageination ul.pagin li{}
+	#search-footer .search-pageination ul.pagin li span,#search-footer .search-pageination ul.pagin li a{}
+	#search-footer .search-pageination ul.pagin li.active a{}
+	#publicnote{}
+	#publicnote p{}
+	#detailpage{}
+	#detailpage .property-carousel{}
+	#detailpage .property-carousel .carousel-inner{}
+	#detailpage .property-carousel .item img{}
+	#detailpage .property-carousel a.carousel-control{}
+	#detailpage .property-carousel a.carousel-control.left{}
+	#detailpage .property-carousel a.carousel-control.right{}
+	#detailpage .property-summary{}
+	#detailpage .property-summary h2{}
+	#detailpage .property-summary h3{}
+	#detailpage .property-summary p{}
+	#property-location{}
+	#property-location .property-location-map{}
+	#property-location .property-location-map iframe{}
+	#property-location .property-location-map .btn-message{}
+	#property-location .property-location-content{}
+	.loan-calc{}
+	.loan-calc h3{}
+	.loan-calc .form-group{}
+	.loan-calc .form-group .control-label{}
+	.loan-calc .form-group .form-control{}
+	.loan-calc .btnblock{}
+}
+@media (max-width:970px){
+  *{}
+  body{}
+  .container{width:100%}
+  .btn{}
+  select.form-control{}
+  #home-filtering select.form-control{margin-bottom:5px;}
+  select.form-control.inline-block{}
+  input.form-control{}
+  textarea.form-control{}
+  #header{}
+  .mobilemenu-trigger{}
+  .mobilemenu-trigger.collapsed{}
+  #primarymenu-collapse{}
+  #primarymenu-collapse.in{}
+  #header .container{}
+  #header #logo{}
+  #header .car-show{display:none}
+  #header .tagline{text-align:right;width:auto;right:10px}
+  #primary{}
+  #primary .searchwrap input.input{}
+  #primary .searchwrap button.searchbtn{}
+  #secondary{}
+  #secondary .navmenu{}
+  #secondary .navmenu ul{}
+  #secondary .navmenu ul li{width:100%;text-align:center}
+  #secondary .navmenu ul li a{}
+  #secondary .navmenu ul li.active a{}
+  #home-banner{padding-bottom:0}
+  #home-banner img.bannerimg{}
+  #home-filtering{background:#fff}
+  #home-filtering #homefitering-fields{}
+  #home-filtering #homefitering-fields h3{}
+  #home-filtering #homefitering-fields form{}
+  #home-filtering #homefitering-fields form .form-group{}
+  #home-filtering #homefitering-fields form .control-label{}
+  #home-filtering #homefitering-fields form .btn-block{}
+  #home-filtering #homefitering-fields form .btn-block .col-sm-6{}
+  #home-filtering #homefitering-fields form .btn-block .btn{}
+  #home-filtering .cta-home{margin:20px -30px}
+  #home-filtering .cta-home a{}
+  #home-filtering .cta-home a:after{}
+  #home-filtering .cta-home a img{}
+  #home-filtering .cta-home a span{}
+  #highlights-link{}
+  #highlights-link ul{}
+  #highlights-link ul li{}
+  #highlights-link ul li a{}
+  #highlights-link ul li.dark-orange a{}
+  #highlights-link ul li.lite-orange a{}
+  #highlights-link ul li.yellow a{}
+  #highlights-link ul li.red a{}
+  #footer{}
+  #search-results{overflow:hidden}
+  #search-results .search-again{display:none}
+  #search-results .container, #search-results .col-md-6,#search-results .col-md-4,#search-results .col-md-8, #search-results .col-md-6 .row{
+    padding: 0;
+    margin: 0;
+}
+#search-results .results-list{
+    border: 0;
+    padding: 0;
+}
+#search-results h3,.search-again h3{
+    padding-left: 20px;
+    margin: 0;
+}
+#search-results .result-each{
+    padding: 24px;
+}
+#search-results .result-each .thumb{}
+#search-results .result-each .thumb img{}
+#search-results .result-each h4{
+    margin-top: 20px;
+}
+#search-results .result-each p{}
+.search-again .control-label{}
+.search-again .btnblock{}
+#search-footer{
+    padding: 20px 20px 0px;
+}
+#search-footer .show-limit{}
+#search-footer .show-limit select{}
+#search-footer .search-pageination{}
+#search-footer .search-pageination ul.pagin{}
+#search-footer .search-pageination ul.pagin li{}
+#search-footer .search-pageination ul.pagin li span,#search-footer .search-pageination ul.pagin li a{}
+#search-footer .search-pageination ul.pagin li.active a{}
+#publicnote{}
+#publicnote p{}
+#detailpage{}
+#detailpage .property-carousel{
+    margin: 0 -15px;
+}
+#detailpage .property-carousel .carousel-inner{}
+#detailpage .property-carousel .item img{}
+#detailpage .property-carousel a.carousel-control{}
+#detailpage .property-carousel a.carousel-control.left{}
+#detailpage .property-carousel a.carousel-control.right{}
+#detailpage .property-summary{
+    margin-top: 20px;
+}
+#detailpage .property-summary h2{
+    display: inline-block;
+    padding: 15px 15px 12px 54px;
+    font-size: 18px;
+    background-size: 15px auto;
+    background-position: 30px 50%;
+}
+#detailpage .property-summary h3{}
+#detailpage .property-summary p{}
+#property-location{}
+#property-location .property-location-map{}
+#property-location .property-location-map iframe{}
+#property-location .property-location-map .btn-message{}
+#property-location .property-location-content{
+    padding: 20px 0 0;
+}
+.loan-calc{}
+.loan-calc h3{}
+.loan-calc .form-group{}
+.loan-calc .form-group .control-label{}
+.loan-calc .form-group .form-control{}
+.loan-calc .btnblock{}
+}
+@media (max-width:700px){
+  #header .desktop-header{display:none}
+#header .mobile-header{width:100%;display: block;}
+  #home-banner-mobile{display:block}
+  #home-banner-mobile img{width:100%;margin-bottom:5px}
+  *{}
+  body{}
+  .container{}
+  .btn{}
+  select.form-control{}
+  select.form-control.inline-block{}
+  input.form-control{}
+  textarea.form-control{}
+  #header{background-size:auto 100%;background-position:0 0}
+  #header .container{height:80px}
+  #header #logo{top:21px;width:110px;left:15px}
+  #header .car-show{display:none}
+  #header .tagline{right:10px;width:auto;font-size:11px;left:123px;text-align:right}
+  #primary{}
+  #primary .navmenu{}
+  #primary .navmenu ul{}
+  #primary .navmenu ul li{}
+  #primary .navmenu ul li:after{}
+  #primary .navmenu ul li:last-child:after{}
+  #primary .navmenu ul li a{}
+  #primary .searchwrap{}
+  #primary .searchwrap input.input{}
+  #primary .searchwrap button.searchbtn{}
+  #secondary{}
+  #secondary .navmenu{}
+  #secondary .navmenu ul{}
+  #secondary .navmenu ul li{}
+  #secondary .navmenu ul li a{}
+  #secondary .navmenu ul li.active a{}
+  #home-banner{display:none}
+  #home-banner img.bannerimg{}
+  #home-filtering{}
+  #home-filtering #homefitering-fields{margin:0 -10px}
+  #home-filtering #homefitering-fields h3{}
+  #home-filtering #homefitering-fields form{}
+  #home-filtering #homefitering-fields form .form-group{}
+  #home-filtering #homefitering-fields form .control-label{padding-right:0;font-size:13px}
+  #home-filtering #homefitering-fields form .btn-block{}
+  #home-filtering #homefitering-fields form .btn-block .col-sm-6{}
+  #home-filtering #homefitering-fields form .btn-block .btn{}
+  #home-filtering .cta-home{}
+  #home-filtering .cta-home a{}
+  #home-filtering .cta-home a:after{}
+  #home-filtering .cta-home a img{}
+  #home-filtering .cta-home a span{width:150px;font-size:22px}
+  #highlights-link{padding-bottom:20px}
+  #highlights-link ul{}
+  #highlights-link ul li{width:100%;margin:8px 0}
+  #highlights-link ul li a{}
+  #highlights-link ul li.dark-orange a{}
+  #highlights-link ul li.lite-orange a{}
+  #highlights-link ul li.yellow a{}
+  #highlights-link ul li.red a{}
+  #footer{}
+  #search-results{}
+#search-results .results-list{}
+#search-results h3,.search-again h3{}
+#search-results .result-each{}
+#search-results .result-each .thumb{}
+#search-results .result-each .thumb img{}
+#search-results .result-each h4{}
+#search-results .result-each p{}
+.search-again .control-label{
+    padding-left: 15px;
+}
+.search-again .btnblock{}
+#search-footer{}
+#search-footer .show-limit{}
+#search-footer .show-limit select{}
+#search-footer .search-pageination{}
+#search-footer .search-pageination ul.pagin{}
+#search-footer .search-pageination ul.pagin li{}
+#search-footer .search-pageination ul.pagin li span,#search-footer .search-pageination ul.pagin li a{}
+#search-footer .search-pageination ul.pagin li.active a{}
+#publicnote{}
+#publicnote p{}
+#detailpage{}
+#detailpage .property-carousel{}
+#detailpage .property-carousel .carousel-inner{}
+#detailpage .property-carousel .item img{}
+#detailpage .property-carousel a.carousel-control{}
+#detailpage .property-carousel a.carousel-control.left{}
+#detailpage .property-carousel a.carousel-control.right{}
+#detailpage .property-summary{}
+#detailpage .property-summary h2{}
+#detailpage .property-summary h3{}
+#detailpage .property-summary p{}
+#property-location{
+    padding-top: 0;
+}
+#property-location .property-location-map{
+    margin: 0 -15px;
+}
+#property-location .property-location-map iframe{
+}
+#property-location .property-location-map .btn-message{
+    margin: 0 5%;
+    width: 90%;
+}
+#property-location .property-location-content{}
+.loan-calc{
+    width: 95%;
+}
+.loan-calc h3{}
+.loan-calc .form-group{}
+.loan-calc .form-group .control-label{}
+.loan-calc .form-group .form-control{}
+.loan-calc .btnblock{}
+#property-forms .col-md-6{padding:0 }
+#property-forms .form-group{margin:0 0 10px}
+.car-detail-page{
+    padding-right: 0;
+    border: 0;
+    margin-bottom: 50px;
+}
+#search-results .car-detail-page h3{}
+#search-results .car-detail-page h4{
+    padding-left: 20px;
+}
+.car-detail-page a.thumb{}
+.car-detail-page a.thumb img{}
+.car-detail-page table{
+    margin: 0 20px 5px;
+}
+.car-detail-page table td{}
+.car-detail-page .car-location-map{
+    margin: 0 20px;
+}
+.car-detail-page .car-location-map iframe{}
+.car-detail-page .car-location-map .btn-message{}
+#page-inner .sidebar{
+    padding: 20px;
+}
+}

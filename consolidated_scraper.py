@@ -54,8 +54,8 @@ class ConsolidatedScraper:
             },
             "eastwest_bank": {
                 "name": "Eastwest Bank",
-                "description": "East West Banking Corporation",
-                "status": "✅ Working (Automated)",
+                "description": "East West Banking Corporation (Pre-owned Properties)",
+                "status": "✅ Working (Automated) - Complete Data Extraction",
                 "scraper_type": "automated",
                 "script": "foreclosed_scraper/scrapers/eastwest_bank_scraper.py"
             },
